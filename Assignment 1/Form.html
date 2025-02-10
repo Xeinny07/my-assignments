@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Already an Altschooler? Sign in!</h1>
+  <section>
+      <form>
+        <h1>Signup</h1>
+        <p>Take the next step to apply at Altschool Africa</p>
+        <!--Form section-->
+        <form actions="/submit" method="POST>
+        <!--First Name-->
+        <label for="First name">First-name:</label>
+        <input  id="first-name" type="name" placeholder="Enter your first name" required>
+        <label for="Last name">Last-name:</label> 
+        <input id="last-name" type="name" placeholder="Enter your last name" required><br>
+        <!--Gender dropdown-->
+        <label for="Gender">Gender:</label>
+        <select id="gender-options" name="gender-options" required>
+            <option value=""disabled selected>Select gender</option>
+            <option value="male">male</option>
+            <option value="female">female</option>
+            <option value="non-binary">Non-binary</option>
+            <option value="prefer_not_to_say">Prefer not to say</option>
+        </select>
+        <!--Date of Birth-->
+        <label for="DOB"> Date of Birth:</label>
+        <input id="dob" type="date" name="dob" required><br>
+        <!--Email Address-->
+        <label for="Email Address">Email Address:</label>
+        <input type="adress" id="address" name="address" placeholder="Enter Email Address" required>
+        <!--Phone Number-->
+        <label for="Phone Number">Phone Number:</label>
+        <input type="tel" id="Phone" name="phone" placeholder="Enter your phone number" required><br>
+        <!--Country-->
+        <label for="Country">Country:</label>
+        <select id="country" name="country" required>
+          <option value=""disabled selected>Select your Country</option>
+          <option value="Nigeria">Nigeria</option>
+          <option value="London">London</option>
+          <option value="South africa">South africa</option>
+          <option value="Ghana">Ghana</option>
+        </select>
+        <!--State/City of Residence-->
+        <label for="State/City of residence">State/City of Residence:</label>
+        <input id="state/city of residence" type="state" name="state" placeholder="Enter state/City of residence" required><br>
+        <!--How Did You Hear About Us-->
+        <label for="how did you hear about us">How Did You Hear About Us:</label>
+        <select id="how did you hear about us" name="how did you hear about us" required>
+            <option value=""disabled selected>select your channel</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Twitter">Twitter</option>
+            <option value="Linkedin">Linkedin</option>
+            <option value="Youtube">Youtube</option>
+            <option value="Friend">Friend</option>
+            <option value="others">Others</option>
+        </select>
+        <!--Password-->
+        <label for="Password">Password:</label>
+        <input id="password" type="password" name="password" placeholder="Enter your password" required><br>
+        <!--Confirm Password-->
+        <label for="Confirm Password">Confirm Password</label>
+        <input id="Confirm password" type="confirm password" name="confirm password" placeholder="confirm password" required>
+        <!--Terms and Conditions-->
+        <div>
+            <input type="checkbox" id="terms" required>
+            <label for="terms">
+              By clicking continue, I agree to the <a href="terms.html" target="_blank">Terms of Use</a> and acknowledge that i have read the <a href="Privacy.html" target="_blank">Privacy policy</a>.
+            </label>
+        </div>
+        <br>
+        <!--Submit Button-->
+        <button type="submit">Submit</button>
+    </form>
+</main>
+        <!--footer section-->  
+        <footer>
+            <p>&copy; 2024 Altschool Africa. All rights reserved.</p>
+        </footer>
+</body>
+</html>
+         
+
+    
+    
